@@ -17,3 +17,4 @@
 
 相关 Lerno 的实践可参考:
 * [Babel monorepo design doc](https://github.com/babel/babel/blob/master/doc/design/monorepo.md)
+* [pixari/component-library-monorepo ](https://github.com/pixari/component-library-monorepo)
