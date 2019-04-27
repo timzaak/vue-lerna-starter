@@ -1,0 +1,28 @@
+{
+  "name": "http-wrap",
+  "version": "0.0.0",
+  "description": "wrap axios",
+  "author": "timzaak <zsy.evan@gmail.com>",
+  "homepage": "https://github.com/timzaak/vue-lerna-starter",
+  "license": "MIT",
+  "main": "lib/http-wrap.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timzaak/vue-lerna-starter.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/timzaak/vue-lerna-starter/issues"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
