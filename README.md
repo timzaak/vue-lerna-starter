@@ -16,3 +16,7 @@
 相关 Lerno 的实践可参考:
 * [Babel monorepo design doc](https://github.com/babel/babel/blob/master/doc/design/monorepo.md)
 * [pixari/component-library-monorepo](https://github.com/pixari/component-library-monorepo)
+
+这种开发模式有个问题，就是 lerna 总包和子包的关联关系没法在 GIT 中体现出来。这就很麻烦了。一种临时的解决方案是， 上面的第二步进行变化：用 git submodule 管理子项目。
+
+另外还有另外一种前端开发模式可供参考：[npm 私有包依赖 本地开发调试频繁更新解决方案](https://www.jianshu.com/p/d0c887cf730e), 这种方式也不是很完美，需要多个版本提交。
